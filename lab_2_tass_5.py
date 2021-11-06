@@ -6,7 +6,7 @@ c = a / b
 d = a % b
 
 if b != 0 and a / b > 0 :
-  print(c)
+  print(int(c)
   print(d)
 else:
   print( 'не получается')
