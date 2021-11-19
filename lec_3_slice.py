@@ -12,3 +12,12 @@ print(slice)
 
 b = np.array([a, np.array(a)*3])
 print(b)
+
+slice = b[::, 1]
+print(slice)
+
+slice = b[1, 2:3:1]
+print(slice)
+
+slice = b [1, 2::1]
+print(slice)
